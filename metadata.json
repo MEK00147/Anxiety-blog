@@ -1,0 +1,6 @@
+{
+  "name": "CALMA",
+  "description": "A calmer mind starts with one small moment. Understand anxiety, build healthier coping habits, and find practical resources to help you take the next step.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

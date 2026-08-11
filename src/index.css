@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Literata', serif;
+    --font-sans: 'Manrope', sans-serif;
+  }
+
+  body {
+    background-color: #faf9f6;
+    color: #1a1c1a;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: var(--font-serif);
+  }
+}
+
+.ambient-shadow {
+  box-shadow: 0 20px 40px -15px rgba(51, 69, 55, 0.08);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.icon-filled {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
